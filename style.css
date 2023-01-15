@@ -675,7 +675,7 @@ main {
         margin-bottom: 30px;
     }
 
-    .main-img>img{
+    .main-img>img {
         width: 550px;
         height: 100%;
     }
@@ -685,24 +685,24 @@ main {
     Fact section
 ------------------------------ */
 
-.fact{
-    display: block;
-    position: relative;
-    top: 1500px;
-    left: -130px;
-    margin-bottom: 50px;
-}
+    .fact {
+        display: block;
+        position: relative;
+        top: 1500px;
+        left: -130px;
+        margin-bottom: 50px;
+    }
 
-/* 
+    /* 
 -----------------------------------
                 Box section
     ----------------------------------- */
 
-    .box{
-display: block;
-position: relative;
-top: 1600px;
-left: -130px;
+    .box {
+        display: block;
+        position: relative;
+        top: 1600px;
+        left: -130px;
 
 
     }
@@ -734,31 +734,31 @@ left: -130px;
 -------------------------------------------*/
 
 
-.sponsors {
-    margin-bottom: 30px;
-    width: 400px;
-    height: 400px;
-    position: relative;
-    top: 1300px;
-left: 70px;
-    
-}
+    .sponsors {
+        margin-bottom: 30px;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: 1300px;
+        left: 70px;
 
-.sponsors-container{
+    }
 
-position: relative;
-top: 1150px;
-display: block;
+    .sponsors-container {
 
-}
+        position: relative;
+        top: 1150px;
+        display: block;
 
-.sponsors-img>img{
+    }
 
-margin-bottom: 25px;
+    .sponsors-img>img {
 
-}
+        margin-bottom: 25px;
 
-/* -----------------------------------------
+    }
+
+    /* -----------------------------------------
                     NEW section
     --------------------------------------------- */
 
@@ -767,17 +767,43 @@ margin-bottom: 25px;
         position: relative;
         top: 1100px;
         left: -215px;
+        gap: 20px;
+
     }
 
 
     .segment-details {
-       margin-left: 0px;
-      
+        margin-left: 0px;
+
     }
 
-    .join{
+    .join {
         margin-left: 0px;
     }
-    
+
+
+    /* ------------------------------------------
+                Footer section
+--------------------------------------------- */
+
+    .footer {
+
+        display: block;
+        position: relative;
+        top: 1000px;
+        left: -160px;
+        width: 400px;
+        height: 70px;
+        padding-top: 7px;
+        
+    }
+
+
+
+
+
+
+
+
 
 }
