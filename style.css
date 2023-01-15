@@ -528,9 +528,6 @@ main {
 @media only screen and (max-width: 576px) {
 
 
-    * {}
-
-
     /*============ Navigation section ======== */
 
     nav {
@@ -688,7 +685,7 @@ main {
     .fact {
         display: block;
         position: relative;
-        top: 1500px;
+        top: 1600px;
         left: -130px;
         margin-bottom: 50px;
     }
@@ -702,7 +699,7 @@ main {
         display: block;
         position: relative;
         top: 1600px;
-        left: -130px;
+        left: -180px;
 
 
     }
@@ -803,11 +800,13 @@ main {
     }
 
 
-
-
-
-
-
-
-
 }
+
+
+
+ /* ------------------------------------------
+        ........Code Ends Here......
+-------------------------------------------- */
+
+
+
