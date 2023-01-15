@@ -679,7 +679,7 @@ main {
 
 
     /* ---------------------------
-    Fact section
+             Fact section
 ------------------------------ */
 
     .fact {
@@ -745,7 +745,10 @@ main {
 
         position: relative;
         top: 1150px;
+        left: -70px;
         display: block;
+        width: 200px;
+        
 
     }
 
