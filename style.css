@@ -135,6 +135,7 @@ nav>ul {
     align-items: center;
     margin-right: 100px;
     margin-bottom: 300px;
+    width: 100%;
 
 }
 
@@ -509,5 +510,131 @@ color: var(--gray);
     font-weight: 400;
     font-size: 20px;
     text-align: center;
+
+}
+
+
+
+/* ------------------------------------------
+                Responsive section
+--------------------------------------------- */
+
+
+@media only screen and (max-width: 576px)  {
+    
+
+    /*============ Navigation section ======== */
+
+nav{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+nav>h1{
+
+margin-bottom: 30px;
+background-color: #FF900E;
+width: 350px;
+height: 80px;
+padding: 0 20px;
+border-radius: 10px;
+}
+
+nav>ul {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+nav>ul>li{
+    background-color: var(--orange);
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+/* =========================================
+                 Header section
+============================================ */
+
+.header__Brand{
+
+margin-left: 50%;
+   
+}
+
+
+/* =========================================
+                 Banner section
+============================================ */
+
+.banner-img{
+margin-left: 50%;
+width: 100%;
+height: 100%;
+
+
+}
+
+/* =========================================
+                 Grid section
+============================================ */
+
+.features-container{
+
+display: block;
+
+}
+
+.photos-container{
+
+display: flex;
+flex-direction: column;
+margin-left: 50%;
+width: 100%;
+height: 100%;
+margin-bottom: 0px;
+
+}
+
+.photos-container>img{
+
+    border: 5px solid var(--orange) ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px var(--gray);
+
+}
+
+.quick-list{
+
+background-color: #12cbeb54;
+margin-left: 230px;
+width: 700px;
+height: 350px;
+align-items: center;
+text-align: center;
+padding: 50px;
+border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
